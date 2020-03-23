@@ -1,9 +1,9 @@
-// the first alert
-alert("Hello, World!");
+var youLikeMeat = false;
+var myNum = 10;
 
-// the second alert
-alert("Hello, World!");
+if (youLikeMeat) {
+  document.write("you like meat");
+} else {
 
-// make th image invisible
-// make the image from top to bottom
-// make the image visible
+  document.write("you hate meat");
+}

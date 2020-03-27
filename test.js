@@ -1,7 +1,7 @@
-var myAge = 26;
+var links = document.getElementsByTagName("a");
 
-if (myAge < 18 || myAge > 30 || myAge === 25) {
-  document.write("You ain't coming!");
-} else {
-  document.write("You can come, you cool dude!");
+for (i = 0; i <= links.length; i++) {
+  console.log("this is link number " + i);
 }
+
+document.write("all links now looped");

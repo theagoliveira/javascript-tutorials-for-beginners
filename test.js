@@ -1,7 +1,4 @@
-var a = "hello";
-var b = 5;
+var string1 = "abc";
+var string2 = "bcd";
 
-// double negative
-if (!isNaN(a)) {
-  console.log("meaning of life is " + a * b);
-}
+console.log(string1 < string2);

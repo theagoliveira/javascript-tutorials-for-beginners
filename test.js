@@ -1,4 +1,23 @@
-var string1 = "abc";
-var string2 = "bcd";
+var myArray = new Array();
+myArray[0] = 8;
+myArray[1] = "hello";
 
-console.log(string1 < string2);
+var myCar = new Object();
+myCar.maxSpeed = 50;
+myCar.driver = "Thiago";
+myCar.drive = function() {
+  console.log("now driving");
+};
+
+myCar.drive();
+
+var myCar2 = {
+  maxSpeed: 70,
+  driver: "Jack",
+  drive: function(speed, time) {
+    console.log(speed * time);
+  }
+};
+
+console.log(myCar2.maxSpeed);
+myCar2.drive(50, 3);

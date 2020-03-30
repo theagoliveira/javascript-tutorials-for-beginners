@@ -1,0 +1,45 @@
+body {
+  background: #eee;
+}
+
+#content {
+  width: 400px;
+  background: #fff;
+  padding: 20px;
+  padding-top: 0;
+  font-family: "IBM Plex Mono";
+  font-size: 15px;
+  color: #444;
+  margin: 0 auto;
+
+  max-height: 255px;
+  overflow: hidden;
+
+  /* Set transitions up. */
+  -webkit-transition: max-height 0.7s;
+  -moz-transition: max-height 0.7s;
+  transition: max-height 0.7s;
+}
+
+#content.open {
+  max-height: 500px;
+
+  /* Set transitions up. */
+  -webkit-transition: max-height 0.7s;
+  -moz-transition: max-height 0.7s;
+  transition: max-height 0.7s;
+}
+
+#show-more {
+  background: #1594e5;
+  color: #fff;
+  font-family: "IBM Plex Mono";
+  display: block;
+  width: 140px;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 10px;
+  text-align: center;
+  margin: 20px auto;
+  cursor: pointer;
+}
